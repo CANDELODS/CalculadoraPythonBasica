@@ -1,6 +1,7 @@
 #Calculadora Desarrollada Por Juan Candelo
 while True:
-     print("""Opciones
+    print("""Bienvenido
+    Opciones
     Ingrese '+' para sumar dos numeros
     Ingrese '-' para restar dos numeros
     Ingrese '*' para multiplicar dos numeros
@@ -9,7 +10,7 @@ while True:
 
     teclado=input(":")
 
-if teclado=="salir" or teclado=="Salir":
+    if teclado=="salir" or teclado=="Salir":
         break
     elif teclado=="+":
         num1=float(input("Ingrese un numero:"))
