@@ -7,4 +7,19 @@ while True:
     Ingrese '/' para dividir dos numeros
     Ingrese 'salir' para finalizar""")
 
-    #teclado=input(":")
+    teclado=input(":")
+
+if teclado=="salir" or teclado=="Salir":
+        break
+    elif teclado=="+":
+        num1=float(input("Ingrese un numero:"))
+        num2=float(input("Ingrese otro numero:"))
+        result=str(num1+num2)
+        print("Respuesta: "+result)
+    elif teclado=="-":
+        num1=float(input("Ingrese un numero:"))
+        num2=float(input("Ingrese otro numero:"))
+        result=str(num1-num2)
+        print("Respuesta: "+result)
+    elif teclado=="*":
+        num1=float(input("Ingrese un numero:"))
